@@ -1,0 +1,73 @@
+body{
+	background-color:white;
+}
+/*Top Menu*/
+div.topBar{
+	background-color:#555;
+	width:inherit;
+	height:56px;
+	max-height:60px;
+	color:#DFDFDF;
+	display:block;
+}
+
+div.nav-content{
+	border-style:solid;
+	border-width:1px;
+	border-color:#555;
+	color:white;
+	max-width:100px;
+	max-height:50px;
+	width:75px;
+	height:50px;
+	position:absolute;
+	top:10px;
+}
+div.nav-content:hover{
+	border-top-color:white;
+	border-bottom-color:white;
+}
+
+div.nav-content>label.name{
+	position:relative;
+	top:14px;
+	left:18px;
+}
+
+#Home{
+	position:relative;
+	top:2px;
+	left:2px;
+}
+#Home>label.name{
+	position:relative;
+	left:18px;
+}
+
+#Overview{
+	position:absolute;
+	top:10px;
+	left:89px;
+}
+#Overview>label.name{
+	position:relative;
+	left:5px;
+}
+
+#In-depth{
+	position:absolute;
+	top:10px;
+	left:168px;
+}
+#In-depth>label.name{
+	position:relative;
+	left:8px;
+}
+
+page {
+	width:inherit;
+	height:inherit;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+}
