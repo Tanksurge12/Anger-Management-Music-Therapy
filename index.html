@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href=".DevProject/resources/css/index.css" type="text/css" rel="stylesheet">
+<script src=".DevProject/resources/js/index.js" type="text/javascript"></script>
+<title>
+Welcome!
+</title>
+<div id="Nav-Bar" class="topBar" onload='setup()'>
+	
+	<div id="Home" class="nav-content" onclick='switchPage("main")'>
+		<label class="name">Home</label>
+	</div>
+	<div id="Overview" class="nav-content" onclick='switchPage("overview")'>
+		<label class="name">Overview</label>
+	</div>
+	<div id="In-depth" class="nav-content" onclick='switchPage("in-depth")'>
+		<label class="name">In-Depth</label>
+	</div>
+		
+</div>
+</head>
+<body>
+<container class="pageContainer">
+
+<page id="main" class="page" >
+
+</page>
+
+<page id="overview" class="page" disabled>
+
+</page>
+
+<page id="in-depth" class="page" disabled>
+
+</page>
+
+</container>
+</body>
+</html>
